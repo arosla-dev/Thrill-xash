@@ -1,0 +1,66 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.out
+*.app
+
+*.bsc
+
+# Local build files
+[Ss]rc/[Bb]uild/
+
+# Configs and user files
+[Tt]hrill/config.*
+[Tt]hrill/video.*
+[Tt]hrill/opengl.*
+[Tt]hrill/levelshots
+[Tt]hrill/save
+[Tt]hrill/demoheader.*
+
+# Node graphs
+[Tt]hrill/maps/graphs
+
+# User map compile files
+[Dd]ev/mapsrc/*.jmx
+[Dd]ev/mapsrc/*.rmx
+[Dd]ev/mapsrc/*.map
+[Dd]ev/mapsrc/*.prt
+[Dd]ev/mapsrc/*.ext
+[Dd]ev/mapsrc/*.wa_
+[Tt]hrill/maps/*.jmx
+[Tt]hrill/maps/*.rmx
+[Tt]hrill/maps/*.prt
+[Tt]hrill/maps/*.ext
+[Tt]hrill/maps/*.wa_
+[Tt]hrill/maps/*.max
+
+# Ignore all logs
+*.log
+
+# Ignore these folders
+*.vs
+.vs/
