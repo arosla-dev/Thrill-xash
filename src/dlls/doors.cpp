@@ -624,6 +624,7 @@ int CBaseDoor::DoorActivate()
 		{// give health if player opened the door (medikit)
 		// VARS( m_eoActivator )->health += m_bHealthValue;
 
+			EMIT_SOUND(ENT(pev), CHAN_ITEM, "items/smallmedkit1.wav", 1, ATTN_NORM);
 			m_hActivator->TakeHealth(m_bHealthValue, DMG_GENERIC);
 
 		}
