@@ -143,9 +143,6 @@ static void UI_Options_Callback( void *self, int event )
 	case ID_NO:
 		UI_CheckUpdatesDialog();
 		break;
-	case ID_CONFIG:
-		UI_PlayerSetup_Menu();
-		break;
 	}
 }
 
@@ -213,22 +210,11 @@ static void UI_Options_Init( void )
 	UI_UtilSetupPicButton( &uiOptions.video, PC_VIDEO );
 
 
-	uiOptions.config.generic.id = ID_CONFIG;
-	uiOptions.config.generic.type = QMTYPE_BM_BUTTON;
-	uiOptions.config.generic.flags = QMF_HIGHLIGHTIFFOCUS | QMF_DROPSHADOW | QMF_NOTIFY;
-	uiOptions.config.generic.x = UI_SELECTION_POSX;
-	uiOptions.config.generic.y = 380;
-	uiOptions.config.generic.name = "config";
-	uiOptions.config.generic.statusText = "Change gameplay related settings";
-	uiOptions.config.generic.callback = UI_Options_Callback;
-
-	UI_UtilSetupPicButton(&uiOptions.config, PC_CUSTOMIZE);
-
 	uiOptions.update.generic.id = ID_UPDATE;
 	uiOptions.update.generic.type = QMTYPE_BM_BUTTON;
 	uiOptions.update.generic.flags = QMF_HIGHLIGHTIFFOCUS|QMF_DROPSHADOW|QMF_NOTIFY;
 	uiOptions.update.generic.x = UI_SELECTION_POSX;
-	uiOptions.update.generic.y = 430; //380
+	uiOptions.update.generic.y = 380;
 	uiOptions.update.generic.name = "Update";
 	uiOptions.update.generic.statusText = "Download the latest version of the Xash3D engine";
 	uiOptions.update.generic.callback = UI_Options_Callback;
@@ -290,7 +276,6 @@ static void UI_Options_Init( void )
 	UI_AddItem( &uiOptions.menu, (void *)&uiOptions.controls );
 	UI_AddItem( &uiOptions.menu, (void *)&uiOptions.audio );
 	UI_AddItem( &uiOptions.menu, (void *)&uiOptions.video );
-	UI_AddItem( &uiOptions.menu, (void *)&uiOptions.config );
 	UI_AddItem( &uiOptions.menu, (void *)&uiOptions.update );
 	UI_AddItem( &uiOptions.menu, (void *)&uiOptions.msgBox );
 	UI_AddItem( &uiOptions.menu, (void *)&uiOptions.updatePrompt );

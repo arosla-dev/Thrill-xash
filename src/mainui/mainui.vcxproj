@@ -149,7 +149,6 @@
     <ClCompile Include="basemenu.cpp" />
     <ClCompile Include="menu_advcontrols.cpp" />
     <ClCompile Include="menu_audio.cpp" />
-    <ClCompile Include="menu_barneymodel.cpp" />
     <ClCompile Include="menu_btns.cpp" />
     <ClCompile Include="menu_configuration.cpp" />
     <ClCompile Include="menu_controls.cpp" />
@@ -161,14 +160,10 @@
     <ClCompile Include="menu_langame.cpp" />
     <ClCompile Include="menu_loadgame.cpp" />
     <ClCompile Include="menu_main.cpp" />
-    <ClCompile Include="menu_misc.cpp" />
     <ClCompile Include="menu_multiplayer.cpp" />
     <ClCompile Include="menu_newgame.cpp" />
-    <ClCompile Include="menu_npcmodel.cpp" />
-    <ClCompile Include="menu_playersetup.cpp" />
     <ClCompile Include="menu_savegame.cpp" />
     <ClCompile Include="menu_saveload.cpp" />
-    <ClCompile Include="menu_scimodel.cpp" />
     <ClCompile Include="menu_strings.cpp" />
     <ClCompile Include="menu_video.cpp" />
     <ClCompile Include="menu_vidmodes.cpp" />

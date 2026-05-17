@@ -59,9 +59,6 @@
     <ClCompile Include="menu_newgame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="menu_playersetup.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="menu_savegame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -87,18 +84,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="utils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="menu_npcmodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="menu_barneymodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="menu_scimodel.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="menu_misc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

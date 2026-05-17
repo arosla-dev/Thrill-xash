@@ -1387,7 +1387,6 @@ void UI_Precache( void )
 	UI_Options_Precache();
 	UI_InternetGames_Precache();
 	UI_LanGame_Precache();
-	UI_PlayerSetup_Precache();
 	UI_Controls_Precache();
 	UI_AdvControls_Precache();
 	UI_GameOptions_Precache();
@@ -1595,7 +1594,6 @@ void UI_Init( void )
 	Cmd_AddCommand( "menu_options", UI_Options_Menu );
 	Cmd_AddCommand( "menu_langame", UI_LanGame_Menu );
 	Cmd_AddCommand( "menu_internetgames", UI_InternetGames_Menu );
-	Cmd_AddCommand( "menu_playersetup", UI_PlayerSetup_Menu );
 	Cmd_AddCommand( "menu_controls", UI_Controls_Menu );
 	Cmd_AddCommand( "menu_advcontrols", UI_AdvControls_Menu );
 	Cmd_AddCommand( "menu_gameoptions", UI_GameOptions_Menu );
